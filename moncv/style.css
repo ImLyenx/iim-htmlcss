@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  aspect-ratio: 1/1.41;
+  display: flex;
+}
+
+section {
+  height: 100%;
+}
+
+.left-bar {
+  width: 33%;
+  background-color: rgb(86, 82, 82);
+  color: white;
+}
+
+.contenu {
+  width: 67%;
+}
+
+.photo-container {
+  width: 100%;
+  aspect-ratio: 1/1.15;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(55, 53, 53);
+}
+
+.photo-container > img {
+  margin: auto;
+  margin-top: 15%;
+  margin-bottom: 0;
+  border-radius: 50%;
+  outline: 4px solid white;
+  background-size: cover;
+  width: 15vw;
+}
+
+.photo-container > h1 {
+  margin: auto;
+  margin-top: 15%;
+  margin-bottom: 0;
+  font-size: calc(3vw);
+  text-transform: uppercase;
+}
+
+.photo-container > h2 {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 0;
+  color: white;
+  font-size: 2vw;
+  font-style: italic;
+}
+
+.articles-container {
+  height: calc(100% - 26.9%);
+  display: flex;
+  flex-direction: column;
+}
+
+.articles-title-container {
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-bottom: 0;
+  display: flex;
+  height: fit-content;
+}
+
+.articles-container > article:nth-of-type(1) {
+  height: 21%;
+}
+.articles-container > article:nth-of-type(2) {
+  height: 33%;
+}
+.articles-container > article:nth-of-type(3) {
+  height: 46%;
+}
+
+.articles-title-container > i {
+  font-size: 3vw;
+  margin-right: 10%;
+}
+
+.articles-title-container > h3 {
+  font-size: 2.75vw;
+  text-transform: uppercase;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.articles-container > article > *:not(.articles-title-container) {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  font-size: 2vw;
+}
+
+.articles-contaierner > article > p.about {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-container > .contact-icon {
+  width: 5vw;
+  margin-right: 10%;
+  display: flex;
+  font-size: 3vw;
+  outline: 0.4vw solid white;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  justify-content: center;
+}
+
+.contact-container > .contact-icon > i {
+  margin: auto;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-container > .skill-title {
+  font-size: 2.5vw;
+  margin-bottom: 5%;
+  display: flex;
+  height: fit-content;
+}
+
+.skill-title > h4 {
+  margin-right: 5%;
+}
+
+.skill-title > p {
+  margin-left: auto;
+}
+
+.skill-bar-background {
+  background-color: white;
+  height: 1vw;
+  width: 100%;
+  border-radius: 0.5vw;
+}
+
+.skill-bar-fill {
+  background-color: rgb(55, 53, 53);
+  height: 100%;
+  overflow: hidden;
+  border-radius: 0.5vw;
+}
+
+.skill-bar-fill.html {
+  width: 90%;
+}
+.skill-bar-fill.js {
+  width: 80%;
+}
+.skill-bar-fill.adobe {
+  width: 60%;
+}
+.skill-bar-fill.blender {
+  width: 50%;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+}
+
+.content {
+  justify-content: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  font-size: 2vw;
+  color: rgb(86, 82, 82);
+}
+
+.content-title-container {
+  display: flex;
+  height: fit-content;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.content-title-container > h1 {
+  font-size: 5vw;
+  text-transform: uppercase;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.content-title-icon-container {
+  height: 7vw;
+  margin-right: 5%;
+  display: flex;
+  font-size: 3vw;
+  background-color: rgb(86, 82, 82);
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  justify-content: center;
+}
+
+.content-title-container > .content-title-icon-container > i {
+  font-size: 4vw;
+  margin: auto;
+  color: white;
+}
+
+.content-text-title {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+
+.content-text {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.content-text-subtitle {
+  display: flex;
+  font-size: 2.5vw;
+  font-style: italic;
+  margin-bottom: 2%;
+}
+
+.content-text-subtitle > h5:nth-of-type(2) {
+  margin-left: auto;
+}
+
+.languages-container {
+  display: flex;
+  margin-left: 5%;
+}
+
+.language {
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.language > img {
+  width: 10vw;
+  margin-bottom: 10%;
+}

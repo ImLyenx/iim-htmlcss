@@ -1,0 +1,17 @@
+.marges {
+  margin: 10px;
+}
+
+.couleur {
+  color: red;
+  background-color: aqua;
+}
+
+.gros {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.souligne {
+  text-decoration: underline;
+}

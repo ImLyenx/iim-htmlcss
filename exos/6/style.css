@@ -1,0 +1,15 @@
+.fond {
+  background-color: #24eeee;
+}
+
+.rouge {
+  color: red;
+}
+
+.police {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.souligne {
+  text-decoration: underline;
+}

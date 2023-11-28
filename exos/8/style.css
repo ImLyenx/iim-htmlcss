@@ -1,0 +1,28 @@
+p {
+  outline: 1px solid red;
+}
+
+.marges {
+  margin: 10px;
+}
+
+.couleur {
+  color: red;
+  background-color: aqua;
+  padding: 10px;
+}
+
+.gros {
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.souligne {
+  text-decoration: underline;
+  margin-top: 50px;
+  width: fit-content;
+}
